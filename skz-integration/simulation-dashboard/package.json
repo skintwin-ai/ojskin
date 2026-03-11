@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:01f64e6e6f9db336bc31c991f1992e16ce632377f42935a7e9cb1f9a913b6d41
-size 2578
+{
+  "name": "skz-simulation-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SKZ Simulation Dashboard",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "chart.js": "^4.0.0",
+    "vue-chartjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  },
+  "note": "Recovered after LFS migration - run npm install to restore dependencies"
+}

@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cc7914379f892f1ae05aa249a8ae0fedb8d27ad758a64f61558d0e36c62ec65
-size 958
+{
+  "name": "skz-ai-inference-node",
+  "version": "1.0.0",
+  "description": "SKZ AI Inference Node for autonomous agent processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "private": true,
+  "note": "Recovered after LFS migration - run npm install to restore dependencies"
+}

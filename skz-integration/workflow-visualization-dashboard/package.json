@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eb134402dcfa9e6b7140ace0365a8d864906ac685ae5536c9b3ff5789250d343
-size 2696
+{
+  "name": "skz-workflow-visualization-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SKZ Workflow Visualization Dashboard",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "chart.js": "^4.0.0",
+    "vue-chartjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  },
+  "note": "Recovered after LFS migration - run npm install to restore dependencies"
+}
